@@ -422,7 +422,7 @@ cameraIrisHollowClose
 
 
 - (void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    //[self changeImageAnimatedWithView:self.img AndImage:[UIImage imageNamed:@"img2.jpg"]];
+    [self changeImageAnimatedWithView:self.img AndImage:[UIImage imageNamed:@"img2.jpg"]];
     //[self timeGroupAnimation];
     //[self shadowColor];
     //[self CATransition];

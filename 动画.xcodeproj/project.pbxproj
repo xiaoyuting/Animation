@@ -15,9 +15,9 @@
 		0E0411021F8B750A003657F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0411001F8B750A003657F8 /* LaunchScreen.storyboard */; };
 		0E04110D1F8B750A003657F8 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04110C1F8B750A003657F8 /* __Tests.m */; };
 		0E0411181F8B750A003657F8 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0411171F8B750A003657F8 /* __UITests.m */; };
-		0E0411261F8B75BA003657F8 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E0411251F8B75BA003657F8 /* img2.jpg */; };
-		0E0411281F8B75C2003657F8 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E0411271F8B75C2003657F8 /* img1.jpg */; };
 		0E0411A11F8DF0F1003657F8 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0411A01F8DF0F1003657F8 /* secondViewController.m */; };
+		0E0411A31F8DF5ED003657F8 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E0411A21F8DF5ED003657F8 /* img1.jpg */; };
+		0E0411A71F8DF895003657F8 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E0411A61F8DF895003657F8 /* img2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		0E0411131F8B750A003657F8 /* 动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0411171F8B750A003657F8 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		0E0411191F8B750A003657F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E0411251F8B75BA003657F8 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
-		0E0411271F8B75C2003657F8 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
 		0E04119F1F8DF0F1003657F8 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
 		0E0411A01F8DF0F1003657F8 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		0E0411A21F8DF5ED003657F8 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		0E0411A61F8DF895003657F8 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,10 @@
 		0E0410F11F8B750A003657F8 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
-				0E0411271F8B75C2003657F8 /* img1.jpg */,
-				0E0411251F8B75BA003657F8 /* img2.jpg */,
 				0E0410F51F8B750A003657F8 /* AppDelegate.h */,
 				0E0410F61F8B750A003657F8 /* AppDelegate.m */,
+				0E0411A21F8DF5ED003657F8 /* img1.jpg */,
+				0E0411A61F8DF895003657F8 /* img2.jpg */,
 				0E0410F81F8B750A003657F8 /* ViewController.h */,
 				0E0410F91F8B750A003657F8 /* ViewController.m */,
 				0E04119F1F8DF0F1003657F8 /* secondViewController.h */,
@@ -261,9 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0411021F8B750A003657F8 /* LaunchScreen.storyboard in Resources */,
-				0E0411281F8B75C2003657F8 /* img1.jpg in Resources */,
+				0E0411A71F8DF895003657F8 /* img2.jpg in Resources */,
+				0E0411A31F8DF5ED003657F8 /* img1.jpg in Resources */,
 				0E0410FF1F8B750A003657F8 /* Assets.xcassets in Resources */,
-				0E0411261F8B75BA003657F8 /* img2.jpg in Resources */,
 				0E0410FD1F8B750A003657F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +530,7 @@
 				0E04111E1F8B750A003657F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E04111F1F8B750A003657F8 /* Build configuration list for PBXNativeTarget "动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				0E0411211F8B750A003657F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E0411221F8B750A003657F8 /* Build configuration list for PBXNativeTarget "动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				0E0411241F8B750A003657F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
